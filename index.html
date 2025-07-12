@@ -1,162 +1,108 @@
+
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=AR One Sans' rel='stylesheet'>
 <title>SIP Abacus Perungalathur</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/SXqn6xvV/cirlogo.png">
 <style type="text/css">
 body {
-	color:white;
+	color:#222222;
 	font-family: 'AR One Sans';font-size: 22px;
+	line-height:25px;
+	background-color:#F1ECE6;
 }
 #header {
-	background-color:darkgreen;
-	border-style:ridge;
-	border-width:8px;
-	border-color:#FCCA46;	
-	height:device-height;
-	width:device-width;
-	border-radius:10px;
-	
+	background-color:#E5D8CF;
+	border-style:solid;
+	border-color:#B0A8A0;
+	border-width:5px;
+	border-radius:3px;
+	padding:5px;
+	margin:10px;
 }
-#container {
-	display:flex;
+hr {
+	border-style:solid;
+	border-width:1.5px;
 }
-#menu {
-	background-color:darkgreen;
-	border-style:ridge;
-	border-width:8px;
-	border-color:#FCCA46;
-	width:device-width;
-	height:device-height;
-	display:inline-block;
-	border-radius:10px;
+#redirect {
+	background-color:#D84315;
+	color:#ffffff;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-right:16px;
+	padding-left:16px;
+	border-style:solid;
+	border-color:#222222;
+	border-width:3px;
+	border-radius:3px;
+}
+#redirect:hover {
+	background-color:#A33312;
+	color:#ffffff;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-right:16px;
+	padding-left:16px;
+	border-style:solid;
+	border-color:#222222;
+	border-width:3px;
+	border-radius:3px;
+	transition-duration:0.25s;
 }
 #main {
-	background-color:darkgreen;
-	border-style:ridge;
-	border-width:8px;
-	border-color:#FCCA46;
-	width:device-width;
-	height:device-height;
-	display:inline-block;
-	border-radius:10px;
-}
-#home {
-	background-color:#FCCA46;
-	padding-right:50px;
-	padding-left:50px;
-	padding-top:10px;
-	padding-bottom:10px;
-	border-radius:10px;
-	font-size:15px;
-}
-#about-us {
-	background-color:#FCCA46;
-	padding-right:50px;
-	padding-left:50px;
-	padding-top:5px;
-	padding-bottom:5px;
-	border-radius:10px;
-	font-size:15px;
-}
-#freetrial {
-	padding-left:50px;
-	padding-right:50px;
-	padding-top:20px;
-	padding-bottom:20px;
-	color:white;
-	background-color:#CA1F3C;
-	font-size:20px;
-	border-radius:10px;
-}
-#home:hover{
-	background-color:#4678fc;
-	color:white;
-	transition-duration:0.3s;
-}
-#about-us:hover{
-	background-color:#4678fc;
-	color:white;
-	transition-duration:0.3s;
-}
-#freetrial:hover{
-	background-color:#4678fc;
-	color:white;
-	transition-duration:0.3s;
-}
-#review{
-	background-color:#FCCA46;
-	padding-right:40px;
-	padding-left:40px;
-	padding-top:5px;
-	padding-bottom:5px;
-	border-radius:10px;
-	font-size:15px;
-}
-#review:hover{
-	background-color:#4678fc;
-	color:white;
-	transition-duration:0.3s;
-}
-#licensing{
-	background-color:#FCCA46;
-	padding-right:40px;
-	padding-left:40px;
-	padding-top:5px;
-	padding-bottom:5px;
-	border-radius:10px;
-	font-size:15px;
-}
-#licensing:hover{
-	background-color:#4678fc;
-	color:white;
-	transition-duration:0.3s;
+	background-color:#E5D8CF;
+	border-style:solid;
+	border-color:#B0A8A0;
+	border-width:5px;
+	border-radius:3px;
+	padding-left:20px;
+	margin:10px;
+	padding-right:20px;
 }
 </style>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale:1">
 </head>
-<body background="https://i.postimg.cc/g0Z4RHVT/f303cdac9fc7dce714ecc4cbeb25c784.jpg">
+<body>
 <div id="header">
-	<center>
-	<img src="https://i.postimg.cc/d0JNMSzc/logo-removebg-preview.png" width="300px">
-	</center>
-	<h3 align="center">NEW PERUNGALATHUR BRANCH</h3>
+<hr>
+<center><img src="https://i.postimg.cc/d0JNMSzc/logo-removebg-preview.png" width="300px">
+<h3>NEW PERUNGALATHUR BRANCH</h3></center>
+<hr>
+<center>
+<a href="https://sipabacus-perungalathur.netlify.app">
+<button id="redirect">
+Home
+</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://sipabacus-perungalathur-about-us.netlify.app">
+<button id="redirect">
+About us
+</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://sipabacus-perungalathur-reviews.netlify.app">
+<button id="redirect">
+Reviews
+</button></a>&nbsp;&nbsp;&nbsp;
+<a href="https://sipabacus-perungalathur-license.netlify.app">
+<button id="redirect">
+Licensing
+</button></a>
+<hr>
 </div>
-<div id="container">
-	<div id="menu" align="center">
-	<br>
-	<a href="https://sipabacus-perungalathur.netlify.app">
-	<button id="home">Home</button>
-	</a>
-	<br>
-	<br>
-	<a href="https://sipabacus-perungalathur-about-us.netlify.app">
-	<button id="about-us">About Us</button>
-	</a>
-	<br>
-	<br>
-	<a href="https://sipabacus-perungalathur-reviews.netlify.app">
-	<button id="review">Reviews</button>
-	</a>
-	<br>
-	<br>
-	<a href="https://sipabacus-perungalathur-licence.netlify.app">
-	<button id="licensing">Licensing</button>
-	</a>
-	</div>&nbsp;&nbsp;
-	<div id="main">
-	<h2>&nbsp;&nbsp;&nbsp;Welcome to SIP Abacus!</h2>
-	<p>&nbsp;&nbsp;&nbsp;SIP Abacus is a skill development programme that can help in various aspects of your child's development. &nbsp;&nbsp;&nbsp;SIP Abacus courses are designed to develop soft-skills, numerical abilities and overall intelligence.</p>
-	<p>&nbsp;&nbsp;&nbsp;Children in today's smartphone-enabled world have just one problem - the constant distraction of stimuli &nbsp;&nbsp;&nbsp;from smartphones, streaming platforms, and other devices.</p>
-	<p>&nbsp;&nbsp;&nbsp;SIP Abacus program is tailored to engage your child productively, learning MATH in a fun way.</p>
-	<p>&nbsp;&nbsp;&nbsp;SIP Abacus makes your child 5 times better. Book a free trial with us!</p>
-	<a href="https://sipabacus.com/in/book-free-trial-class" target="newpaged"><center>
-	<button id="freetrial">Book a free trial with us</button>
-	</center>
-	</a>
-	<br>
-	<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/dwzsskf0w1pcucfp" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Made with Padlet"></div></a></div></div>
-	</div>
+<br>
+<div id="main">
+<hr>
+<h3>Welcome to SIP Abacus!</h3>
+<hr>
+<p>SIP Abacus is a skill development programme that can help in various aspects of your child's development. SIP Abacus courses are designed to develop soft-skills, numerical abilities and overall intelligence.</p>
+<p>Children in today's smartphone-enabled world have just one problem - the constant distraction of stimuli from smartphones, streaming platforms, and other devices.</p><p>SIP Abacus program is tailored to engage your child productively, learning MATH in a fun way.</p>
+<p>SIP Abacus makes your child 5 times better. Book a free trial with us!</p>
+<center><a href="https://sipabacus.com/in/book-free-trial-class">
+<button id="redirect">
+Book a free trial with us!
+</button></a></center>
+<br>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/dwzsskf0w1pcucfp" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><div style="display:flex;align-items:center;"> 
+<hr>
 </div>
 </body>
 </html>
